@@ -4,6 +4,7 @@
   --primarylight: #ebb60a;
 
   --white: #ffffff;
+  --black: #000000;
 
 
   --graygradient: rgba(255, 255, 255, 0.816);
@@ -11,7 +12,7 @@
   
   --darklightwhite: rgba(1, 1, 1, 0.72);
 
-  --bodypanel: rgba(1, 1, 1, 0.344);
+  --bodypanel: rgba(250, 248, 248, 0.344);
 
   
   --lightwhite: rgba(255, 255, 255, 0.08);
@@ -27,11 +28,7 @@
 
 .housingTheme1{
   font-family: "Open Sans", sans-serif;
-<<<<<<< HEAD
   color: var(--white);
-=======
-  color: var(--White);
->>>>>>> 471a29ae4205269dedcc140c070d0b2fded14acc
   position: relative;
   background: transparent;
 }
