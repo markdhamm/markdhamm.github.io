@@ -28,7 +28,7 @@
 
 .housingTheme1{
   font-family: "Open Sans", sans-serif;
-  color: var(--white);
+  color: var(--black);
   position: relative;
   background: transparent;
 }
@@ -49,7 +49,7 @@
 
 .housingTheme2{
   font-family: "Open Sans", sans-serif;
-  color: var(--white);
+  color: var(--black);
   position: relative;
   background: transparent;
 }
