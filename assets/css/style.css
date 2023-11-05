@@ -4,7 +4,6 @@
   --primarylight: #ebb60a;
 
   --white: #ffffff;
-  --black: #000000;
 
 
   --graygradient: rgba(255, 255, 255, 0.816);
@@ -12,7 +11,7 @@
   
   --darklightwhite: rgba(1, 1, 1, 0.72);
 
-  --bodypanel: rgba(250, 248, 248, 0.344);
+  --bodypanel: rgba(1, 1, 1, 0.344);
 
   
   --lightwhite: rgba(255, 255, 255, 0.08);
@@ -124,12 +123,12 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: var(--black);
+  color: var(--graygradient);
 }
 
 #header h2 span {
-  color: var(--black);;
-  border-bottom: 2px solid var(--black);
+  color: var(--white);;
+  border-bottom: 2px solid var(--primarybirght);
   padding-bottom: 6px;
 }
 
@@ -201,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: var(--black);
+  color: var(--graygradient);
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -214,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: var(--black);
+  background-color: var(--primarybirght);
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
