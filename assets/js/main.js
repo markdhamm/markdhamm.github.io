@@ -72,7 +72,7 @@
   else if($(this).is(":not(:checked)")){
     document.documentElement.style.setProperty('--primarybirght', '#ebb60a');
     document.documentElement.style.setProperty('--primarylight', '#ebb60a');
-    document.documentElement.style.setProperty('--white', '#ffffff');
+    document.documentElement.style.setProperty('--white', '##1a1a1a');
     document.documentElement.style.setProperty('--graygradient', 'rgba(255, 255, 255, 0.816)');
     document.documentElement.style.setProperty('--darklightwhite', 'rgba(1, 1, 1, 0.72)');
     document.documentElement.style.setProperty('--lightwhite', 'rgba(255, 255, 255, 0.08)');
