@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: var(--black);;
-  border-bottom: 2px solid var(--primarybirght);
+  border-bottom: 2px solid var(--black);
   padding-bottom: 6px;
 }
 
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: var(--white);
+  color: var(--black);
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: var(--white);
+  background-color: var(--black);
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
